@@ -1,0 +1,16 @@
+{
+  "name": "html-email-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://erikv30.github.io/html-email-resume",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

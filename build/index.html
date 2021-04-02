@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>HTML Email</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+      /* Google font import Poppins */
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+      /* Outlook link fix */
+      #outlook a {
+        padding: 0;
+      }
+
+      /* Hotmail background & line height fixes */
+      .ExternalClass {
+        width: 100% !important;
+      }
+
+      .ExternalClass,
+		.ExternalClass p,
+		.ExternalClass span,
+		.ExternalClass font,
+		/* Image borders & formatting */
+		img {
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      a img {
+        border: none;
+      }
+
+      /* Re-style iPhone automatic links (eg. phone numbers) */
+
+      .appleLinksGrey a {
+        color: #919191 !important;
+        text-decoration: none !important;
+      }
+
+      /* Hotmail symbol fix for mobile devices */
+      .ExternalClass img[class^="Emoji"] {
+        width: 10px !important;
+        height: 10px !important;
+        display: inline !important;
+      }
+
+      /* Button hover colour change */
+      .btn:hover {
+        background-color: #00982e !important;
+      }
+
+      .onHover:hover {
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 600px) {
+        .logo {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+
+        .p {
+          font-size: 16px !important;
+          line-height: 28px !important;
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+
+        .btn_wrap {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body
+    style="
+      padding: 0;
+      margin: 0;
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: 100%;
+      background-color: #e8e8e8;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      color: #919191;
+    "
+  >
+    <!--[if mso]>
+      <style type="text/css">
+        body,
+        table,
+        td {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!--EMAIL-->
+    <center
+      class="wrapper"
+      style="
+        width: 100%;
+        table-layout: fixed;
+        background-color: #e8e8e8;
+        padding-bottom: 40px;
+      "
+    >
+      <table
+        class="main"
+        width="100%"
+        style="
+          background-color: #f2f2f2;
+          margin: 0 auto;
+          width: 100%;
+          max-width: 600px;
+          border-spacing: 0;
+          color: #919191;
+        "
+      >
+        <!-- // FULL EMAIL START -->
+        <!--Logo section start-->
+        <tr>
+          <td
+            class="logo"
+            style="
+              background-color: #3d4a3d;
+              text-align: left;
+              padding-top: 20px;
+              padding-right: 30px;
+              padding-bottom: 20px;
+              padding-left: 30px;
+            "
+          >
+            <a
+              href="https://erikv30.github.io/myportfolio"
+              target="_blank"
+              style="
+                color: #ffffff;
+                font-size: 20px;
+                font-weight: 700;
+                text-decoration: none;
+              "
+              >Erick Vega Vargas</a
+            >
+          </td>
+        </tr>
+        <!--Logo section end-->
+        <!--Banner start-->
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td
+                  style="
+                    text-align: center;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    background-color: #e9e9dd;
+                    margin-bottom: 20px;
+                  "
+                >
+                  <img
+                    src="img/Erick-photo.jpg"
+                    alt="Erick-photo"
+                    width="200"
+                    style="border-radius: 50%"
+                  />
+                  <p
+                    class="p"
+                    style="
+                      color: #2ebc4f;
+                      padding-top: 0;
+                      padding-right: 50px;
+                      padding-bottom: 0;
+                      padding-left: 50px;
+                      font-weight: 700;
+                      margin-top: 10px;
+                      margin-bottom: 10px;
+                    "
+                  >
+                    Front-End Developer
+                  </p>
+                  <a
+                    class="onHover"
+                    href="https://linkedin.com/in/erick-vega-vargas"
+                    target="_blank"
+                    ><img
+                      src="img/sociallinkedin_member_70.png"
+                      alt="linkedin logo"
+                      width="30"
+                      style="margin-left: 5px; margin-right: 5px"
+                  /></a>
+                  <a
+                    class="onHover"
+                    href="https://github.com/erikv30"
+                    target="_blank"
+                    ><img
+                      src="img/github-logo_icon-icons.com_73546.png"
+                      alt="github logo"
+                      width="30"
+                      style="margin-left: 5px; margin-right: 5px"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--Banner end-->
+        <!--About section start-->
+        <tr>
+          <td class="about-title" height="50">
+            <h2
+              class="h2"
+              style="
+                font-weight: 700;
+                font-size: 25px;
+                color: #272727;
+                padding-left: 30px;
+                padding-right: 30px;
+              "
+            >
+              About Me
+            </h2>
+          </td>
+        </tr>
+        <!--Paragraph-->
+        <tr>
+          <td
+            class="p"
+            style="
+              text-align: justify;
+              background-color: #f2f2f2;
+              padding-top: 0;
+              padding-right: 50px;
+              padding-bottom: 50px;
+              padding-left: 50px;
+            "
+          >
+            I am a self-taught Front-End Developer. I was introduced to the
+            concepts of Back-end and Front-end when I took a course in Data
+            Analysis with Python. What started of curiosity about how websites
+            and applications are created has become a passion. Since then, I
+            knew that I was hooked on the world of software development.
+            <br /><br />
+            Below you will find projects that I have done that show my skills
+            and general experience in front-end development.
+          </td>
+        </tr>
+        <!--About section end-->
+        <!--Project section start-->
+        <tr>
+          <td class="about-title" height="50">
+            <h2
+              class="h2"
+              style="
+                font-weight: 700;
+                font-size: 25px;
+                color: #272727;
+                padding-left: 30px;
+                padding-right: 30px;
+              "
+            >
+              Projects
+            </h2>
+          </td>
+        </tr>
+        <!--Two Columns start-->
+        <tr>
+          <td
+            style="
+              padding-top: 0;
+              padding-right: 0;
+              padding-bottom: 0;
+              padding-left: 0;
+            "
+          >
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td
+                  class="two-columns"
+                  style="
+                    padding-top: 10px;
+                    padding-right: 0;
+                    padding-bottom: 10px;
+                    padding-left: 0;
+                    text-align: center;
+                    font-size: 0;
+                  "
+                >
+                  <!--Column start-->
+                  <table
+                    class="column"
+                    width="100%"
+                    style="
+                      border-spacing: 0;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                    "
+                  >
+                    <!--Column Content start-->
+                    <tr>
+                      <td
+                        class="padding"
+                        style="
+                          padding-top: 0;
+                          padding-right: 20px;
+                          padding-bottom: 0;
+                          padding-left: 20px;
+                        "
+                      >
+                        <table
+                          class="content"
+                          width="100%"
+                          style="
+                            border-spacing: 0;
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 16px;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding-top: 0;
+                                padding-right: 0;
+                                padding-bottom: 0;
+                                padding-left: 0;
+                              "
+                            >
+                              <a
+                                class="onHover"
+                                href="https://erikv30.github.io/myportfolio"
+                                style="
+                                  color: #2ebc4f;
+                                  text-decoration: none;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                "
+                                >My Portfolio</a
+                              >
+                              <p
+                                height="80"
+                                style="text-align: justify; height: 80px"
+                              >
+                                It is my portfolio. It uses HTML 5, CSS 3,
+                                JavaScript and gh-pages for hosting
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button start-->
+                    <tr>
+                      <td
+                        class="btn_wrap"
+                        style="
+                          text-align: center;
+                          background-color: #f2f2f2;
+                          padding-top: 0;
+                          padding-right: 50px;
+                          padding-bottom: 20px;
+                          padding-left: 50px;
+                        "
+                      >
+                        <table style="border-spacing: 0; text-align: center">
+                          <!--// Button-->
+                          <tr>
+                            <td
+                              class="btn"
+                              style="
+                                text-align: center;
+                                background-color: #2ebc4f;
+                                border-radius: 2px;
+                                color: #ffffff;
+                                padding-top: 15px;
+                                padding-right: 20px;
+                                padding-bottom: 15px;
+                                padding-left: 20px;
+                              "
+                            >
+                              <a
+                                href="https://erikv30.github.io/myportfolio"
+                                target="_blank"
+                                style="
+                                  color: #ffffff;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                "
+                                >Go to Website</a
+                              >
+                            </td>
+                          </tr>
+                          <!--Button //-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button end-->
+                    <!--Column Content end-->
+                  </table>
+                  <!--Column end-->
+                  <!--Column start-->
+                  <table
+                    class="column"
+                    width="100%"
+                    style="
+                      border-spacing: 0;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                    "
+                  >
+                    <!--Column Content start-->
+                    <tr>
+                      <td
+                        class="padding"
+                        style="
+                          padding-top: 0;
+                          padding-right: 20px;
+                          padding-bottom: 0;
+                          padding-left: 20px;
+                        "
+                      >
+                        <table
+                          class="content"
+                          width="100%"
+                          style="
+                            border-spacing: 0;
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 16px;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding-top: 0;
+                                padding-right: 0;
+                                padding-bottom: 0;
+                                padding-left: 0;
+                              "
+                            >
+                              <a
+                                class="onHover"
+                                href="https://erikv30.github.io/visit-cr"
+                                style="
+                                  color: #2ebc4f;
+                                  text-decoration: none;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                "
+                                >Visit CR</a
+                              >
+                              <p style="text-align: justify">
+                                It is a page about a travel or tourism agency
+                                for Costa Rica. Uses React.js, react-router-dom,
+                                CSS, and gh-pages for hosting
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button start-->
+                    <tr>
+                      <td
+                        class="btn_wrap"
+                        style="
+                          text-align: center;
+                          background-color: #f2f2f2;
+                          padding-top: 0;
+                          padding-right: 50px;
+                          padding-bottom: 20px;
+                          padding-left: 50px;
+                        "
+                      >
+                        <table style="border-spacing: 0; text-align: center">
+                          <!--// Button-->
+                          <tr>
+                            <td
+                              class="btn"
+                              style="
+                                text-align: center;
+                                background-color: #2ebc4f;
+                                border-radius: 2px;
+                                color: #ffffff;
+                                padding-top: 15px;
+                                padding-right: 20px;
+                                padding-bottom: 15px;
+                                padding-left: 20px;
+                              "
+                            >
+                              <a
+                                href="https://erikv30.github.io/visit-cr"
+                                target="_blank"
+                                style="
+                                  color: #ffffff;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                "
+                                >Go to Website</a
+                              >
+                            </td>
+                          </tr>
+                          <!--Button //-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button end-->
+                    <!--Column Content end-->
+                  </table>
+                  <!--Column end-->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--Two Columns end-->
+        <!--Two Columns start-->
+        <tr>
+          <td
+            style="
+              padding-top: 0;
+              padding-right: 0;
+              padding-bottom: 0;
+              padding-left: 0;
+            "
+          >
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td
+                  class="two-columns"
+                  style="
+                    padding-top: 10px;
+                    padding-right: 0;
+                    padding-bottom: 10px;
+                    padding-left: 0;
+                    text-align: center;
+                    font-size: 0;
+                  "
+                >
+                  <!--Column start-->
+                  <table
+                    class="column"
+                    width="100%"
+                    style="
+                      border-spacing: 0;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                    "
+                  >
+                    <!--Column Content start-->
+                    <tr>
+                      <td
+                        class="padding"
+                        style="
+                          padding-top: 0;
+                          padding-right: 20px;
+                          padding-bottom: 0;
+                          padding-left: 20px;
+                        "
+                      >
+                        <table
+                          class="content"
+                          width="100%"
+                          style="
+                            border-spacing: 0;
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 16px;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding-top: 0;
+                                padding-right: 0;
+                                padding-bottom: 0;
+                                padding-left: 0;
+                              "
+                            >
+                              <a
+                                class="onHover"
+                                href="https://erikv30.github.io/restaurant"
+                                style="
+                                  color: #2ebc4f;
+                                  text-decoration: none;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                "
+                                >Restaurant</a
+                              >
+                              <p style="text-align: justify">
+                                An E-commerce website for a restaurant. Uses
+                                React.js, react-router-dom, CSS, react-context
+                                API, and gh-pages for hosting.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button start-->
+                    <tr>
+                      <td
+                        class="btn_wrap"
+                        style="
+                          text-align: center;
+                          background-color: #f2f2f2;
+                          padding-top: 0;
+                          padding-right: 50px;
+                          padding-bottom: 20px;
+                          padding-left: 50px;
+                        "
+                      >
+                        <table style="border-spacing: 0; text-align: center">
+                          <!--// Button-->
+                          <tr>
+                            <td
+                              class="btn"
+                              style="
+                                text-align: center;
+                                background-color: #2ebc4f;
+                                border-radius: 2px;
+                                color: #ffffff;
+                                padding-top: 15px;
+                                padding-right: 20px;
+                                padding-bottom: 15px;
+                                padding-left: 20px;
+                              "
+                            >
+                              <a
+                                href="https://erikv30.github.io/restaurant"
+                                target="_blank"
+                                style="
+                                  color: #ffffff;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                "
+                                >Go to Website</a
+                              >
+                            </td>
+                          </tr>
+                          <!--Button //-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button end-->
+                    <!--Column Content end-->
+                  </table>
+                  <!--Column end-->
+                  <!--Column start-->
+                  <table
+                    class="column"
+                    width="100%"
+                    style="
+                      border-spacing: 0;
+                      max-width: 300px;
+                      display: inline-block;
+                      vertical-align: top;
+                    "
+                  >
+                    <!--Column Content start-->
+                    <tr>
+                      <td
+                        class="padding"
+                        style="
+                          padding-top: 0;
+                          padding-right: 20px;
+                          padding-bottom: 0;
+                          padding-left: 20px;
+                        "
+                      >
+                        <table
+                          class="content"
+                          width="100%"
+                          style="
+                            border-spacing: 0;
+                            text-align: center;
+                            line-height: 20px;
+                            font-size: 16px;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding-top: 0;
+                                padding-right: 0;
+                                padding-bottom: 0;
+                                padding-left: 0;
+                              "
+                            >
+                              <a
+                                class="onHover"
+                                href="https://erikv30.github.io/pokemon-search-v2"
+                                style="
+                                  color: #2ebc4f;
+                                  text-decoration: none;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                "
+                                >Pokémon Search</a
+                              >
+                              <p style="text-align: justify">
+                                A PokéDex where you can search for a Pokémon by
+                                its name or id and see its information.
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button start-->
+                    <tr>
+                      <td
+                        class="btn_wrap"
+                        style="
+                          text-align: center;
+                          background-color: #f2f2f2;
+                          padding-top: 0;
+                          padding-right: 50px;
+                          padding-bottom: 20px;
+                          padding-left: 50px;
+                        "
+                      >
+                        <table style="border-spacing: 0; text-align: center">
+                          <!--// Button-->
+                          <tr>
+                            <td
+                              class="btn"
+                              style="
+                                text-align: center;
+                                background-color: #2ebc4f;
+                                border-radius: 2px;
+                                color: #ffffff;
+                                padding-top: 15px;
+                                padding-right: 20px;
+                                padding-bottom: 15px;
+                                padding-left: 20px;
+                              "
+                            >
+                              <a
+                                href="https://erikv30.github.io/pokemon-search-v2"
+                                target="_blank"
+                                style="
+                                  color: #ffffff;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  text-align: center;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                "
+                                >Go to Website</a
+                              >
+                            </td>
+                          </tr>
+                          <!--Button //-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--Button end-->
+                    <!--Column Content end-->
+                  </table>
+                  <!--Column end-->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--Two Columns end-->
+        <!--Project section end-->
+        <!--Skills start-->
+        <tr>
+          <td class="about-title" height="50">
+            <h2
+              class="h2"
+              style="
+                font-weight: 700;
+                font-size: 25px;
+                color: #272727;
+                padding-left: 30px;
+                padding-right: 30px;
+              "
+            >
+              Skills
+            </h2>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              padding-top: 0;
+              padding-right: 0;
+              padding-bottom: 0;
+              padding-left: 0;
+            "
+          >
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td
+                  class="two-columns"
+                  style="
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-right: 0;
+                    padding-bottom: 0;
+                    padding-left: 0;
+                  "
+                >
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 150px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                      padding-bottom: 10px;
+                    "
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="img/html-5-by-Freepik.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/css-by-Freepik.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/javascript_original_logo_icon_146455.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/reactjs_logo_icon_170805.png"
+                          alt=""
+                          style="max-width: 140px"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                  <!--Second column-->
+                  <table
+                    class="column"
+                    style="
+                      width: 100%;
+                      max-width: 150px;
+                      display: inline-block;
+                      vertical-align: top;
+                      text-align: center;
+                      padding-bottom: 10px;
+                    "
+                  >
+                    <tr>
+                      <td>
+                        <img
+                          src="img/github_original_wordmark_logo_icon_146506.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/photoshop_22512.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/nodejs_original_wordmark_logo_icon_146412.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                        <img
+                          src="img/git_original_wordmark_logo_icon_146510.png"
+                          height="70"
+                          alt=""
+                          style="padding-bottom: 20px"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--Skills end-->
+        <!--Contact section start-->
+        <tr>
+          <td class="about-title" height="50">
+            <h2
+              class="h2"
+              style="
+                font-weight: 700;
+                font-size: 25px;
+                color: #272727;
+                padding-left: 30px;
+                padding-right: 30px;
+              "
+            >
+              Contact
+            </h2>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              padding-top: 10px;
+              padding-right: 0;
+              padding-bottom: 0;
+              padding-left: 0;
+            "
+          >
+            <table width="100%" style="border-spacing: 0">
+              <tr>
+                <td style="text-align: center; padding-bottom: 20px">
+                  <a
+                    href="https://erikv30.github.io/myportfolio"
+                    target="_blank"
+                    style="
+                      color: #2ebc4f;
+                      font-size: 20px;
+                      font-weight: 700;
+                      text-decoration: none;
+                    "
+                    >Erick Vega Vargas</a
+                  >
+                  <p style="padding-bottom: 15px">San José, Costa Rica</p>
+                  <p>
+                    <a
+                      href="mailto:erikvega30@hotmail.com"
+                      style="text-decoration: none; color: #919191"
+                      >erikvega30@hotmail.com</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="tel:50683262784"
+                      style="text-decoration: none; color: #919191"
+                      >(+506) 8326-2784</a
+                    >
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!--Contact section end-->
+        <tr>
+          <td height="30" style="background-color: #3d4a3d; padding: 0"></td>
+        </tr>
+        <!-- FULL EMAIL END // -->
+      </table>
+    </center>
+  </body>
+</html>
